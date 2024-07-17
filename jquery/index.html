@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jquery</title>
+        <!-- FONT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+        <!-- ICON -->
+        <link href="css/all.min.css" rel="stylesheet">
+        <!-- <link rel="icon" href="./Images/bookmark.png" type="image"> -->
+        <!-- BOOTSTRAP -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- CSS -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+</head>
+<body>
+    <section class="home" id="Home">
+        <div class="left-nav">
+            <a href="#" class="closeButton">x</a>
+            <a href="#Home">Home</a>
+            <a href="#Duration" id="duration">Duration</a>
+            <a href="#Details">Details</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        <div class="home-content">
+            <h1>ُEgyption Party</h1>
+            <p>Let's have Fun</p>
+        </div>
+        <span id="navButton">☰ open</span>
+        
+    </section>
+
+    <section class="text" id="Duration">
+            <div class="singer">
+                <h2>Singer one</h2>
+                <div class="singer-text" id="one">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+                <h2>Singer two</h2>
+                <div class="singer-text" id="two">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+                <h2>Singer three</h2>
+                <div class="singer-text" id="three">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+                <h2>Singer four</h2>
+                <div class="singer-text" id="three">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="joinUs" id="Details">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="item" id="day"></div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item" id="hour"></div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item" id="minutes"></div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item" id="seconds"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="Contact">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h2 class="fs-4 fw-bolder">JOIN US</h2>
+                    <span class="d-flex justify-content-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <div class="left">
+                            <h3 class="fw-bold fs-5">CONTACT INFO</h3>
+                            <p>Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p> 
+                            <div class="left-icon">
+                                <span><i class="fa-solid fa-location-dot"></i>  New Street 22545, Nexa Road, New York City, USA</span>
+                                <span><i class="fa-solid fa-envelope"></i>  hello@uigrid.com</span>
+                                <span><i class="fa-solid fa-phone"></i>  001-000-000-000</span>
+                            </div> 
+                            <div class="social-icon">
+                                <div class="ico"><i class="fa-brands fa-twitter"></i></div>
+                                <div class="ico"><i class="fa-brands fa-facebook-f"></i></div>
+                                <div class="ico"><i class="fa-brands fa-instagram"></i></div>
+                                <div class="ico"><i class="fa-brands fa-dribbble"></i></div>
+                                <div class="ico"><i class="fa-brands fa-pinterest"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right ">
+                        <form>
+                            <div class="form-group ">
+                              <input type="text" class="form-control" id="name" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                              <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control" id="massage" placeholder="Enter Massage" rows="3"></textarea>
+                              <span id="chars">100</span> Characyer Reamining
+                            </div>
+                            
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

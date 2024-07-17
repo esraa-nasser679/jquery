@@ -1,0 +1,234 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+body
+{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.home
+{
+    height: 95vh;
+    background-image: linear-gradient(
+        rgba(214, 46, 51, 0.6), 
+        rgba(214, 46, 51, 0.6)
+      ),url(../image/header.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+}
+
+.home-content
+{
+    text-align: center;
+    color: white;
+}
+
+#navButton
+{
+    position: absolute;
+    top: 330px;
+    left: 30px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.left-nav
+{
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* padding: 0 20px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    width: 0;
+    overflow: hidden;
+}
+
+.left-nav .closeButton
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    
+}
+
+.left-nav a
+{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 8px 20px 32px;
+}
+
+.singer
+{
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: #ccc;
+}
+.singer h2
+{ 
+    padding: 5px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+}
+
+.singer div
+{ 
+    display: none;
+}
+
+
+.joinUs
+{
+    background-image: linear-gradient(
+        rgba(214, 46, 51, 0.6), 
+        rgba(214, 46, 51, 0.6)
+      ),url(../image/join\ us.jpg);
+      min-height: 300px;
+      background-position: center;
+      background-size: cover;
+      text-align: center;
+}
+
+.joinUs .container
+{
+    padding: 100px 0 ;
+}
+
+.item
+{
+    border: 2px solid white;
+    padding: 30px;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+
+
+.contact
+{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.contact-info
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 10px;
+}
+
+.left
+{
+    display: flex;
+    flex-direction: column;
+}
+.left p
+{
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+    text-align: center;
+}
+
+.form-group
+{
+    padding: 10px 0;
+}
+
+.form-group input
+{
+    border-radius: 0;
+}
+
+.left-icon
+{
+    display: flex;
+    flex-direction: column;
+    color: #777;
+    text-align: center;
+}
+.left-icon span 
+{
+    padding: 20px;
+    font-size: 18px;
+}
+
+.left-icon span i 
+{
+    padding-right:20px ;
+}
+
+.social-icon
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+.social-icon .ico
+{
+    border: 1px solid #777;
+    padding: 5px 10px; 
+    margin: 15px;
+}
+
+.social-icon .ico i
+{
+    color: #777;
+}
+
+.social-icon .ico:hover
+{
+    background-color: #dc3545;
+}
+
+.social-icon .ico:hover i
+{
+    color: white;
+}
+
+
+.right button
+{
+    color: white;
+    background-color: #D62E33;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: 0;
+    margin-top: 20px;
+}
